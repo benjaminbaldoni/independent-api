@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb/base",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "import/extensions": "off",
+    "max-len": ["error", 120],
+    "new-cap": "off",
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-confusing-arrow": "off"
+  }
+}
