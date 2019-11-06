@@ -7,10 +7,16 @@ Basic API for creating and authorizing new users, upload files to S3, send push 
 A `dev.js` file containing AWS keys and a database connection is required.
 
 First run migrations 
-```yarn migrate```
+```
+yarn migrate
+```
 
 Then install dependencies
-```yarn install```
+```
+yarn install
+```
 
 Finally run with 
-```yarn dev```
+```
+yarn dev
+```
