@@ -16,7 +16,7 @@
     "dbrestart": "knex --knexfile=./src/knexfile.js migrate:rollback --all"
   },
   "dependencies": {
-    "aws-sdk": "^2.503.0",
+    "aws-sdk": "^2.814.0",
     "body-parser": "^1.19.0",
     "bookshelf": "^0.15.1",
     "bookshelf-secure-password": "^3.1.0",
